@@ -8,7 +8,7 @@ const app = express()
 const server = createServer(app)
 const io = new Server(server, {
   cors: {
-    origin: "https://lightref-social.vercel.app/"
+    origin: "https://lightref-social.vercel.app"
   }
 })
 
